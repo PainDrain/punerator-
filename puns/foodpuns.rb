@@ -1,0 +1,36 @@
+puts "What types of food puns would you like to hear about? Pizza? Romaine? Ham? Donut? Avacado? Butter? Matcha? Curry? Jello? Egg? Bean? Miso? Pear? Or Taco?"
+def personal(name)
+    if name == "Pizza"
+         puts "What's your dog's favorite kind of pizza? Puperoni"
+    elsif name == "Romaine"
+         puts "Romaine calm! All is well."
+    elsif name == "Taco" 
+         puts "I don't wanna Taco about it." 
+    elsif name == "Ham"
+         puts "I want to hold your ham."
+    elsif name == "Bean" 
+         puts "Where you bean all my life?"
+    elsif name == "Donut"
+         puts "I Donut hate you."
+    elsif name == "Miso" 
+         puts "Miso hungry."
+    elsif name == "Egg"
+         puts "I'm so eggcited!"
+    elsif name == "Avacado" 
+         puts "I am avocontrol."
+    elsif name == "Curry"
+         puts "Keep calm and curry on."
+    elsif name == "Jello" 
+         puts "Jello from the other side."
+    elsif name == "Pear"
+         puts "Congratulations to the new Pearants."
+    elsif name == "Butter" 
+         puts "You are my butter half."
+    elsif name == "Matcha"
+         puts "I love you so matcha"
+    else
+         puts "Sorry, nothing available if you're so picky." 
+    end
+end
+name = gets.chomp.capitalize
+personal(name)

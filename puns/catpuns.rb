@@ -8,3 +8,4 @@ def puns(meow)
 end
 meow = gets.chomp.downcase
 puns(meow)
+potato

@@ -1,5 +1,5 @@
-puts "Choose one of the letters to hear a dog book." A? B? C? D? E? F? G? H? I? J? "
-def personal(name)
+puts "Choose one of the letters to hear a dog book. A? B? C? D? E? F? G? H? I? J? "
+def personal(dog)
     if name == "A"
          puts "You must be my backyard, because I really dig you."
     elsif name == "B"
@@ -20,4 +20,10 @@ def personal(name)
          puts "You're looking quite fetching."
     elsif name == "J"
          puts "You are a hot dog.."
+     else
+         puts "Sorry, nothing available if you're so picky." 
+    end
+end
+name = gets.chomp.capitalize
+personal(dog)
   
